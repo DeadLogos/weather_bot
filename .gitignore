@@ -1,0 +1,14 @@
+/.idea/.gitignore
+/images/clear-sky.jpg
+/images/cloud.jpg
+/creds.py
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/images/rain.jpg
+/images/snow.jpg
+/images/star-sky.png
+/images/thunderstorm.jpg
+/.idea/weather_bot.iml
+/.idea/vcs.xml
