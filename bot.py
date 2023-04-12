@@ -2,7 +2,14 @@ import telebot
 from pprint import pprint
 import requests
 import datetime
-from creds import API_TOKEN, API_WEATHER_KEY
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+API_TOKEN = os.getenv('API_TOKEN')
+API_WEATHER_KEY = os.getenv('API_WEATHER_KEY')
 
 bot = telebot.TeleBot(API_TOKEN)
 
